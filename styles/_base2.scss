@@ -1,0 +1,55 @@
+
+.aboutus {
+    margin: 30px;
+
+h1 {
+font-size: 35px;
+color:  #0009a1;
+;
+margin: px;
+font-family: "ALK Tall Mtavruli", sans-serif;
+}
+
+p {
+    width: 800px;
+    line-height: 2;
+    color: rgb(0, 0, 0);
+    background-color: #ffe5f6
+}
+}
+
+
+.profile {
+    margin-top:50px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    .info { 
+	width: 100px;
+	height: 120px;
+	background-color: rgb(41, 17, 17);
+	color: rgb(0, 0, 0);
+	padding: 20px;
+
+    }
+
+    
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+   .ptag {
+        width: 400px;
+        color: rgb(43, 42, 42);
+        line-height: 30px;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+}
+
+

@@ -49,10 +49,11 @@ table {
 }
 
 .header {
-  background-color: rgb(77, 12, 77);
+  background-color: rgb(3, 5, 61);
   height: 70px;
   display: flex;
   align-items: center;
+  width: 2000px;
 }
 .header nav {
   margin-left: 15px;
@@ -64,31 +65,273 @@ table {
   text-decoration: none;
   font-family: "BPG Banner Caps", sans-serif;
 }
+.header .tbc {
+  width: 30px;
+  margin-left: 10px;
+}
 .header .active {
-  color: #caa8ff;
+  color: #a8c4ff;
 }
 .header a:hover {
   color: rgb(250, 250, 141);
 }
 
-h1 {
-  font-size: 35px;
-  color: #971f7d;
-  margin: 30px;
-  font-family: "ALK Tall Mtavruli", sans-serif;
+.slogan {
+  position: absolute;
+}
+.slogan img {
+  position: absolute;
+  width: 2000px;
+  margin-top: 30px;
+  height: 600px;
+}
+.slogan p {
+  position: relative;
+  position: relative;
+  color: #fcffff;
+  font-size: 30px;
+  margin-top: 300px;
+  margin-left: 800px;
 }
 
 .card {
   display: flex;
   gap: 30px;
+  margin-top: 700px;
+}
+.card h1 {
+  font-size: 35px;
+  color: #0009a1;
   margin: 30px;
+  font-family: "ALK Tall Mtavruli", sans-serif;
 }
 .card img {
-  width: 500px;
+  width: 390px;
+  height: 280px;
+  margin-left: 30px;
 }
-.card p {
-  width: 500px;
+.card .divptag {
+  width: 400px;
   color: rgb(43, 42, 42);
   line-height: 30px;
   font-size: 15px;
+  margin-top: 100px;
+}
+
+.testimonial {
+  line-height: 25px;
+  margin-left: 25px;
+  background-color: #e5e5ff;
+  height: 230px;
+  text-align: center;
+  padding: 5px;
+  margin-top: 50px;
+}
+.testimonial li {
+  font-family: "Arial GEO Italic", sans-serif;
+}
+
+.forma {
+  display: flex;
+  margin-left: 800px;
+  margin-top: 57px;
+  width: 900px;
+  gap: 20px;
+  flex-direction: column;
+}
+.forma h1 {
+  font-size: 35px;
+  color: #0009a1;
+  margin: 0px;
+  font-family: "ALK Tall Mtavruli", sans-serif;
+}
+.forma .register {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+}
+.forma input {
+  width: 100%;
+  height: 45px;
+  padding-left: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  background-color: #F8F8F8;
+  border: 1px solid rgb(210, 210, 226);
+}
+.forma button {
+  height: 50px;
+  background-color: #0d0164;
+  color: #FBFBFF;
+  border: 1px solid rgb(210, 210, 226);
+}
+.forma button:hover {
+  background-color: rgb(3, 3, 56);
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  background-color: #03053d;
+  height: 300px;
+}
+.contact .comp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+}
+.contact .comp div {
+  width: 68px;
+  height: 68px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #010b51;
+  font-size: 35px;
+  margin-bottom: 16px;
+}
+.contact .names {
+  font-weight: 700;
+  font-size: 20px;
+  color: #ebeaf1;
+}
+.contact .text {
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.aboutus {
+  margin: 30px;
+}
+.aboutus h1 {
+  font-size: 35px;
+  color: #0009a1;
+  margin: px;
+  font-family: "ALK Tall Mtavruli", sans-serif;
+}
+.aboutus p {
+  width: 800px;
+  line-height: 2;
+  color: rgb(0, 0, 0);
+  background-color: #ffe5f6;
+}
+
+.profile {
+  margin-top: 50px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.profile .info {
+  width: 100px;
+  height: 120px;
+  background-color: rgb(41, 17, 17);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
+.profile img {
+  width: 100px;
+  height: 100px;
+}
+.profile .ptag {
+  width: 400px;
+  color: rgb(43, 42, 42);
+  line-height: 30px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+h1 {
+  font-size: 35px;
+  color: #0009a1;
+  margin: 30px;
+  font-family: "ALK Tall Mtavruli", sans-serif;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: center;
+}
+.courses .course {
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #313061;
+}
+.courses .course p {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+.courses .course img {
+  width: 300px;
+  height: 200px;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.upcoming {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: center;
+  background-color: #e5e5ff;
+  height: 300px;
+}
+.upcoming p {
+  font-family: "Arial GEO Italic", sans-serif;
+  width: 300px;
+  line-height: 20px;
+  margin-left: 30px;
+}
+.upcoming h1 {
+  font-size: 35px;
+  color: #0009a1;
+  margin: 30px;
+  font-family: "ALK Tall Mtavruli", sans-serif;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  background-color: #03053d;
+  height: 300px;
+}
+.contact .comp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+}
+.contact .comp div {
+  width: 68px;
+  height: 68px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #010b51;
+  font-size: 35px;
+  margin-bottom: 16px;
+}
+.contact .names {
+  font-weight: 700;
+  font-size: 20px;
+  color: #ebeaf1;
+}
+.contact .text {
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */

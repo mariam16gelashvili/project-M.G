@@ -1,0 +1,89 @@
+h1 {
+  font-size: 35px;
+  color: #0009a1;
+  margin: 30px;
+  font-family: "ALK Tall Mtavruli", sans-serif;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: center;
+}
+.courses .course {
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #313061;
+}
+.courses .course p {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+.courses .course img {
+  width: 300px;
+  height: 200px;
+  display: block;
+  transition: transform 0.3s;
+}
+
+.upcoming {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: center;
+  background-color: #e5e5ff;
+  height: 300px;
+}
+.upcoming p {
+  font-family: "Arial GEO Italic", sans-serif;
+  width: 300px;
+  line-height: 20px;
+  margin-left: 30px;
+}
+.upcoming h1 {
+  font-size: 35px;
+  color: #0009a1;
+  margin: 30px;
+  font-family: "ALK Tall Mtavruli", sans-serif;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  background-color: #03053d;
+  height: 300px;
+}
+.contact .comp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+}
+.contact .comp div {
+  width: 68px;
+  height: 68px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #010b51;
+  font-size: 35px;
+  margin-bottom: 16px;
+}
+.contact .names {
+  font-weight: 700;
+  font-size: 20px;
+  color: #ebeaf1;
+}
+.contact .text {
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffffff;
+}/*# sourceMappingURL=base3.css.map */
