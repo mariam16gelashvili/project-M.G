@@ -53,15 +53,11 @@
 }
 
 
-
-
 .card {
     display: flex;
     gap: 30px;
     margin-top: 700px;
-
-    .box {
-    }
+    align-items: center;
 
     h1 {
     font-size: 35px;
@@ -82,7 +78,7 @@
         color: rgb(43, 42, 42);
         line-height: 30px;
         font-size: 15px;
-        margin-top: 100px;
+        margin-top: 60px;
     }
 }
 

@@ -3,3 +3,16 @@
 @import "base2";
 @import "base3";
 @import "base4";
+
+@import "media.queries";
+
+
+@media #{$mobile} {
+    @import 'mobile';
+}
+@media #{$tablet} {
+    @import 'tablet';
+}
+@media #{$desktop} {
+    @import 'desktop';
+}

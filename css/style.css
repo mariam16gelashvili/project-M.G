@@ -98,6 +98,7 @@ table {
   display: flex;
   gap: 30px;
   margin-top: 700px;
+  align-items: center;
 }
 .card h1 {
   font-size: 35px;
@@ -115,7 +116,7 @@ table {
   color: rgb(43, 42, 42);
   line-height: 30px;
   font-size: 15px;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .testimonial {
@@ -205,45 +206,104 @@ table {
 }
 
 .aboutus {
-  margin: 30px;
+  display: flex;
+  gap: 40px;
 }
-.aboutus h1 {
-  font-size: 35px;
-  color: #0009a1;
-  margin: px;
-  font-family: "ALK Tall Mtavruli", sans-serif;
+.aboutus img {
+  margin-top: 30px;
+  margin-left: 30px;
 }
 .aboutus p {
-  width: 800px;
-  line-height: 2;
-  color: rgb(0, 0, 0);
-  background-color: #ffe5f6;
+  margin-top: 30px;
+  font-family: "Arial GEO Italic", sans-serif;
+  line-height: 30px;
 }
 
 .profile {
-  margin-top: 50px;
-  margin-left: 30px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
-}
-.profile .info {
-  width: 100px;
-  height: 120px;
-  background-color: rgb(41, 17, 17);
-  color: rgb(0, 0, 0);
-  padding: 20px;
+  gap: 10px;
+  margin: 10px;
 }
 .profile img {
-  width: 100px;
-  height: 100px;
+  width: 130px;
 }
-.profile .ptag {
-  width: 400px;
-  color: rgb(43, 42, 42);
-  line-height: 30px;
+.profile div {
+  display: flex;
+}
+.profile div p {
+  width: 700px;
+  line-height: 20px;
+  background-color: #d7ddf7;
+  height: 120px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.slogan-container {
+  width: 200px;
+  height: 15px;
+  border: 1px solid black;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  transition: 1s;
+  margin: 30px;
+  align-content: center;
+}
+
+.slogan-container:hover {
+  border-radius: 15px;
   font-size: 15px;
-  margin-top: 10px;
+  background-color: rgb(0, 34, 145);
+  transition: 1s ease-in-out;
+}
+
+.inside {
+  display: flex;
+  background-color: #e9f5ff;
+}
+.inside img {
+  width: 400px;
+  height: 300px;
+  padding: 30px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  background-color: #03053d;
+  height: 300px;
+}
+.contact .comp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+}
+.contact .comp div {
+  width: 68px;
+  height: 68px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #010b51;
+  font-size: 35px;
+  margin-bottom: 16px;
+}
+.contact .names {
+  font-weight: 700;
+  font-size: 20px;
+  color: #ebeaf1;
+}
+.contact .text {
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffffff;
 }
 
 h1 {
@@ -334,4 +394,102 @@ h1 {
   font-weight: 700;
   font-size: 15px;
   color: #ffffff;
+}
+
+.contactmap {
+  display: flex;
+  gap: 400px;
+  margin-bottom: 250px;
+}
+.contactmap .misamarti {
+  margin-left: 30px;
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contactmap h2 {
+  font-size: 35px;
+  color: #0009a1;
+  margin-top: 30px;
+  font-family: "ALK Tall Mtavruli", sans-serif;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-around;
+  background-color: #03053d;
+  height: 300px;
+}
+.contact .comp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+}
+.contact .comp div {
+  width: 68px;
+  height: 68px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #010b51;
+  font-size: 35px;
+  margin-bottom: 16px;
+}
+.contact .names {
+  font-weight: 700;
+  font-size: 20px;
+  color: #ebeaf1;
+}
+.contact .text {
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .slogan {
+    position: absolute;
+  }
+  .slogan img {
+    position: absolute;
+    width: 800px;
+    margin-top: 30px;
+    height: 500px;
+  }
+  .slogan p {
+    position: relative;
+    position: relative;
+    color: #fcffff;
+    margin-top: 250px;
+    margin-left: 250px;
+    font-size: 25px;
+  }
+  .card {
+    display: flex;
+    gap: 30px;
+    margin-top: 700px;
+    align-items: center;
+  }
+  .card h1 {
+    font-size: 35px;
+    color: #0009a1;
+    margin: 30px;
+    font-family: "ALK Tall Mtavruli", sans-serif;
+  }
+  .card img {
+    width: 390px;
+    height: 280px;
+    margin-left: 30px;
+  }
+  .card .divptag {
+    width: 400px;
+    color: rgb(43, 42, 42);
+    line-height: 30px;
+    font-size: 15px;
+    margin-top: 60px;
+  }
 }/*# sourceMappingURL=style.css.map */
