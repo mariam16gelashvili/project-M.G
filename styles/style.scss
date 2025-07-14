@@ -16,3 +16,36 @@
 @media #{$desktop} {
     @import 'desktop';
 }
+
+
+@media #{$mobile} {
+    @import 'mobile2';
+}
+@media #{$tablet} {
+    @import 'tablet2';
+}
+@media #{$desktop} {
+    @import 'desktop';
+}
+
+
+@media #{$mobile} {
+    @import 'mobile3';
+}
+@media #{$tablet} {
+    @import 'tablet3';
+}
+@media #{$desktop} {
+    @import 'desktop';
+}
+
+
+@media #{$mobile} {
+    @import 'mobile4';
+}
+@media #{$tablet} {
+    @import 'tablet4';
+}
+@media #{$desktop} {
+    @import 'desktop';
+}

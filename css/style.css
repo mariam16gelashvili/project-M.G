@@ -119,14 +119,17 @@ table {
   margin-top: 60px;
 }
 
+.background {
+  background-color: #e5e5ff;
+  text-align: center;
+  margin-top: 50px;
+}
+
 .testimonial {
   line-height: 25px;
   margin-left: 25px;
-  background-color: #e5e5ff;
   height: 230px;
-  text-align: center;
   padding: 5px;
-  margin-top: 50px;
 }
 .testimonial li {
   font-family: "Arial GEO Italic", sans-serif;
@@ -139,6 +142,7 @@ table {
   width: 900px;
   gap: 20px;
   flex-direction: column;
+  margin-bottom: 150px;
 }
 .forma h1 {
   font-size: 35px;
@@ -258,12 +262,13 @@ table {
   border-radius: 15px;
   font-size: 15px;
   background-color: rgb(0, 34, 145);
-  transition: 1s ease-in-out;
+  transition: 1s;
 }
 
 .inside {
   display: flex;
   background-color: #e9f5ff;
+  margin-bottom: 150px;
 }
 .inside img {
   width: 400px;
@@ -450,6 +455,159 @@ h1 {
   color: #ffffff;
 }
 
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .header {
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    width: 2000px;
+  }
+  .header nav {
+    margin-left: 15px;
+  }
+  .header a {
+    color: rgb(0, 0, 67);
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: "BPG Banner Caps", sans-serif;
+    display: flex;
+    padding-bottom: 10px;
+  }
+  .header .tbc {
+    width: 30px;
+    margin-left: 10px;
+  }
+  .header .active {
+    color: rgb(5, 5, 148);
+  }
+  .header a:hover {
+    color: rgb(9, 73, 190);
+  }
+  .slogan {
+    position: absolute;
+  }
+  .slogan img {
+    position: absolute;
+    width: 322px;
+    margin-top: 0px;
+    height: 273px;
+  }
+  .slogan p {
+    position: relative;
+    color: #f5f5ff;
+    font-size: 16px;
+    margin-top: 131px;
+    margin-left: 67px;
+  }
+  .card {
+    display: flex;
+    gap: 30px;
+    margin-top: 296px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .card h1 {
+    font-size: 30px;
+    color: #0009a1;
+    margin: 47px;
+    font-family: "ALK Tall Mtavruli", sans-serif;
+  }
+  .card img {
+    width: 278px;
+    height: 230px;
+    margin-left: 11px !important;
+  }
+  .card .divptag {
+    width: 266px;
+    color: rgb(43, 42, 42);
+    line-height: 23px;
+    font-size: 15px;
+    margin-top: 0px !important;
+  }
+  .testimonial {
+    line-height: 23px;
+    margin-left: 0px;
+    height: 325px;
+    padding: 5px;
+  }
+  .testimonial li {
+    font-family: "Arial GEO Italic", sans-serif;
+  }
+  .forma {
+    display: flex;
+    margin-left: 17px;
+    margin-top: 57px;
+    width: 900px;
+    gap: 10px;
+    flex-direction: column;
+    margin-bottom: 150px;
+  }
+  .forma h1 {
+    font-size: 35px;
+    color: #0009a1;
+    margin: 0px;
+    font-family: "ALK Tall Mtavruli", sans-serif;
+  }
+  .forma .register {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+  }
+  .forma input {
+    width: 80%;
+    height: 45px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: #F8F8F8;
+    border: 1px solid rgb(210, 210, 226);
+  }
+  .forma button {
+    width: 80%;
+    height: 50px;
+    background-color: #0d0164;
+    color: #FBFBFF;
+    border: 1px solid rgb(210, 210, 226);
+  }
+  .forma button:hover {
+    background-color: rgb(3, 3, 56);
+  }
+  .contact {
+    display: flex;
+    background-color: #03053d;
+    height: 488px;
+    flex-direction: column !important;
+  }
+  .contact .comp {
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+  }
+  .contact .comp div {
+    width: 51px;
+    height: 51px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #010b51;
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+  .contact .names {
+    font-weight: normal;
+    font-size: 19px;
+    color: #ebeaf1;
+  }
+  .contact .text {
+    font-weight: normal;
+    font-size: 14px;
+    color: #ffffff;
+  }
+}
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .slogan {
     position: absolute;
@@ -471,8 +629,9 @@ h1 {
   .card {
     display: flex;
     gap: 30px;
-    margin-top: 700px;
+    margin-top: 550px;
     align-items: center;
+    flex-direction: column;
   }
   .card h1 {
     font-size: 35px;
@@ -483,13 +642,308 @@ h1 {
   .card img {
     width: 390px;
     height: 280px;
-    margin-left: 30px;
+    margin-left: 0px !important;
   }
   .card .divptag {
     width: 400px;
     color: rgb(43, 42, 42);
     line-height: 30px;
     font-size: 15px;
-    margin-top: 60px;
+    margin-top: 0px !important;
+  }
+  .forma {
+    display: flex;
+    margin-left: 230px;
+    margin-top: 57px;
+    width: 900px;
+    gap: 20px;
+    flex-direction: column;
+    margin-bottom: 150px;
+  }
+  .forma h1 {
+    font-size: 35px;
+    color: #0009a1;
+    margin: 0px;
+    font-family: "ALK Tall Mtavruli", sans-serif;
+  }
+  .forma .register {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+  }
+  .forma input {
+    width: 100%;
+    height: 45px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: #F8F8F8;
+    border: 1px solid rgb(210, 210, 226);
+  }
+  .forma button {
+    height: 50px;
+    background-color: #0d0164;
+    color: #FBFBFF;
+    border: 1px solid rgb(210, 210, 226);
+  }
+  .forma button:hover {
+    background-color: rgb(3, 3, 56);
+  }
+  .contact {
+    display: flex;
+    justify-content: space-around;
+    background-color: #03053d;
+    height: 300px;
+  }
+  .contact .comp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+  }
+  .contact .comp div {
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #010b51;
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
+  .contact .names {
+    font-weight: 700;
+    font-size: 18px;
+    color: #ebeaf1;
+  }
+  .contact .text {
+    font-weight: normal !important;
+    font-size: 15px;
+    color: #ffffff;
+  }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .aboutus {
+    display: flex;
+    gap: 25px !important;
+    flex-direction: column;
+  }
+  .aboutus img {
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 273px;
+  }
+  .aboutus p {
+    margin-top: 0px !important;
+    font-family: "Arial GEO Italic", sans-serif;
+    line-height: 21px;
+    margin-left: 30px;
+    width: 289px;
+    margin-bottom: 50px;
+  }
+  .profile {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+  }
+  .profile img {
+    width: 130px;
+    margin-left: 81px;
+  }
+  .profile div {
+    display: flex;
+    flex-direction: column;
+  }
+  .profile div p {
+    width: 302px;
+    line-height: 19px;
+    background-color: #d7ddf7;
+    height: 300px;
+  }
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .inside {
+    display: flex;
+    background-color: #e9f5ff;
+    flex-direction: column !important;
+    align-items: center;
+    margin-bottom: 150px;
+  }
+  .inside img {
+    width: 276px;
+    height: 229px;
+    padding: 30px;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .aboutus {
+    display: flex;
+    gap: 25px !important;
+    flex-direction: column;
+  }
+  .aboutus img {
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 700px;
+  }
+  .aboutus p {
+    margin-top: 0px !important;
+    font-family: "Arial GEO Italic", sans-serif;
+    line-height: 24px;
+    margin-left: 30px;
+    width: 712px;
+    margin-bottom: 50px;
+  }
+  .profile {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 10px;
+    margin-bottom: 80px;
+  }
+  .profile img {
+    width: 130px;
+  }
+  .profile div {
+    display: flex;
+  }
+  .profile div p {
+    width: 626px;
+    line-height: 19px;
+    background-color: #d7ddf7;
+    height: 131px;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-around;
+    width: 768px;
+  }
+  .inside {
+    display: flex;
+    background-color: #e9f5ff;
+    flex-direction: column !important;
+    align-items: center;
+    margin-bottom: 150px;
+  }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  .upcoming {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #e5e5ff;
+    height: 1369px;
+    justify-content: flex-start;
+  }
+  .upcoming p {
+    font-family: "Arial GEO Italic", sans-serif;
+    width: 285px;
+    line-height: 20px;
+    margin-left: 30px;
+  }
+  .upcoming h1 {
+    font-size: 35px;
+    color: #0009a1;
+    margin-left: 30px;
+    font-family: "ALK Tall Mtavruli", sans-serif;
+  }
+  .hr {
+    border: none;
+    height: 1px;
+    background-color: rgb(205, 205, 205);
+    margin-top: 70px;
+    margin-bottom: 150px;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .upcoming {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    background-color: #e5e5ff;
+    height: 1160px;
+    justify-content: flex-start;
+  }
+  .upcoming p {
+    font-family: "Arial GEO Italic", sans-serif;
+    width: 300px;
+    line-height: 20px;
+    margin-left: 30px;
+  }
+  .upcoming h1 {
+    font-size: 35px;
+    color: #0009a1;
+    margin: 30px;
+    font-family: "ALK Tall Mtavruli", sans-serif;
+  }
+  .hr {
+    border: none;
+    height: 1px;
+    background-color: rgb(205, 205, 205);
+    margin-top: 70px;
+    margin-bottom: 150px;
+  }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .contactmap {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 250px;
+    flex-direction: column;
+  }
+  .contactmap iframe {
+    width: 299px;
+    height: 254px;
+    margin-left: 10px;
+  }
+  .contactmap .misamarti {
+    margin-left: 30px;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 10px;
+  }
+  .contactmap h2 {
+    font-size: 35px;
+    color: #0009a1;
+    margin-top: 30px;
+    font-family: "ALK Tall Mtavruli", sans-serif;
+    margin-left: 10px;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .contactmap {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    margin-bottom: 200px;
+  }
+  .contactmap iframe {
+    margin-left: 30px;
+  }
+  .contactmap .misamarti {
+    margin-left: 30px;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .contactmap h2 {
+    font-size: 35px;
+    color: #0009a1;
+    margin-left: 30px;
+    font-family: "ALK Tall Mtavruli", sans-serif;
   }
 }/*# sourceMappingURL=style.css.map */

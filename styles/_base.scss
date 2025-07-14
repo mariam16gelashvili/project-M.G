@@ -52,7 +52,6 @@
     }
 }
 
-
 .card {
     display: flex;
     gap: 30px;
@@ -82,14 +81,17 @@
     }
 }
 
+
+.background {
+    background-color:#e5e5ff ;
+    text-align: center;
+    margin-top: 50px;
+}
 .testimonial {
     line-height: 25px;
     margin-left: 25px;
-    background-color: #e5e5ff;
     height: 230px;
-    text-align: center;
     padding: 5px;
-    margin-top: 50px;
 
     li {
         font-family: "Arial GEO Italic", sans-serif;
@@ -105,6 +107,7 @@
     width: 900px;
     gap: 20px;
     flex-direction: column;
+    margin-bottom: 150px;
 
     h1 {
     font-size: 35px;

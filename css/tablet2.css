@@ -1,0 +1,52 @@
+.aboutus {
+  display: flex;
+  gap: 25px !important;
+  flex-direction: column;
+}
+.aboutus img {
+  margin-top: 50px;
+  margin-left: 30px;
+  width: 700px;
+}
+.aboutus p {
+  margin-top: 0px !important;
+  font-family: "Arial GEO Italic", sans-serif;
+  line-height: 24px;
+  margin-left: 30px;
+  width: 712px;
+  margin-bottom: 50px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: 10px;
+  margin-bottom: 80px;
+}
+.profile img {
+  width: 130px;
+}
+.profile div {
+  display: flex;
+}
+.profile div p {
+  width: 626px;
+  line-height: 19px;
+  background-color: #d7ddf7;
+  height: 131px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  width: 768px;
+}
+
+.inside {
+  display: flex;
+  background-color: #e9f5ff;
+  flex-direction: column !important;
+  align-items: center;
+  margin-bottom: 150px;
+}/*# sourceMappingURL=tablet2.css.map */

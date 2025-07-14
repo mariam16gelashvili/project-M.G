@@ -1,0 +1,179 @@
+.header {
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    width: 2000px;
+    
+    nav {
+        margin-left: 15px;   
+    }
+
+    a {
+    color: rgb(0 0 67);
+    font-size: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-family: "BPG Banner Caps", sans-serif;
+    display: flex;
+    padding-bottom: 10px;
+    }
+
+    .tbc {
+    width: 30px;
+    margin-left: 10px;
+    }
+
+    .active {
+        color: rgb(5, 5, 148);
+    }
+
+    a:hover {
+        color: rgb(9, 73, 190);
+    }
+    
+}
+
+.slogan {
+    position: absolute;
+
+    img {
+        position: absolute;
+        width: 322px;
+        margin-top: 0px;
+        height: 273px;
+    }
+
+    p {
+        position: relative;
+        color: #f5f5ff;
+        font-size: 16px;
+        margin-top: 131px;
+        margin-left: 67px;
+
+    }
+}
+
+.card {
+    display: flex;
+    gap:30px;
+    margin-top: 296px;
+    align-items: center;
+    flex-direction: column;
+
+    h1 {
+    font-size: 30px;
+    color: #0009a1;
+    margin: 47px;
+    font-family: "ALK Tall Mtavruli", sans-serif;
+    }
+
+    img {
+        width: 278px;
+        height: 230px;
+        margin-left: 11px !important; 
+    }
+
+    .divptag {
+        width: 266px;
+        color: rgb(43, 42, 42);
+        line-height: 23px;
+        font-size: 15px;
+        margin-top: 0px !important;
+    }
+}
+
+
+.testimonial {
+    line-height: 23px;
+    margin-left: 0px;
+    height: 325px;
+    padding: 5px;
+
+    li {
+        font-family: "Arial GEO Italic", sans-serif;
+    }
+
+}
+
+.forma {
+    display: flex;
+    margin-left: 17px;
+    margin-top: 57px;
+    width: 900px;
+    gap: 10px;
+    flex-direction: column;
+    margin-bottom: 150px;
+
+    h1 {
+    font-size: 35px;
+    color: #0009a1;
+    margin: 0px;
+    font-family: "ALK Tall Mtavruli", sans-serif;
+    }
+
+    .register {
+    display: flex;
+    flex-direction: column;
+    width: 370px}
+
+    input {
+    width: 80%;
+    height: 45px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: #F8F8F8;
+    border:1px solid rgb(210, 210, 226) ;
+}
+
+    button {
+    width: 80%;
+    height: 50px;
+    background-color:#0d0164 ;
+    color: #FBFBFF;
+    border:1px solid rgb(210, 210, 226) ;
+}
+
+    button:hover {   
+    background-color: rgb(3, 3, 56);
+}
+}
+
+.contact {
+    display: flex;
+    background-color: #03053d;
+    height: 488px;
+    flex-direction: column !important;
+
+    .comp {
+       display: flex;
+        align-items: center;
+        padding-top: 8px;
+        
+    div {
+        width: 51px;
+        height: 51px;
+        background-color: #ffffff;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #010b51;
+        font-size: 28px;
+        margin-bottom: 16px;   
+    }
+}
+
+    .names {
+        font-weight: normal;
+        font-size: 19px;
+        color: #ebeaf1;
+    }
+
+    .text {
+        font-weight: normal;
+        font-size: 14px;
+        color: #ffffff;
+}
+}

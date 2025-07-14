@@ -1,0 +1,63 @@
+.aboutus {
+    display: flex;
+    gap: 25px !important;
+    flex-direction: column;
+
+    img {
+       margin-top: 0px;
+       margin-left: 30px;
+       width: 273px;
+}
+    p{
+        margin-top: 0px !important;
+        font-family: "Arial GEO Italic", sans-serif;
+        line-height: 21px;
+        margin-left: 30px;
+        width: 289px;
+        margin-bottom: 50px;
+    }
+
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+
+    img {
+        width: 130px;
+        margin-left: 81px;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+
+    p {
+        width: 302px;
+        line-height: 19px;
+        background-color: #d7ddf7;
+        height: 300px;
+    }
+}  
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.inside {
+    display: flex;
+    background-color: #e9f5ff;
+    flex-direction: column !important;
+    align-items: center;
+    margin-bottom: 150px;
+
+    img {
+        width:276px ;
+        height: 229px;
+        padding: 30px;
+    }
+}

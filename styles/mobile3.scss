@@ -1,0 +1,37 @@
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.upcoming {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #e5e5ff;
+    height: 1369px;
+    justify-content: flex-start;
+
+    p {
+        font-family: "Arial GEO Italic", sans-serif;
+        width: 285px;
+        line-height: 20px;
+        margin-left: 30px;
+
+    }
+
+    h1 {
+    font-size: 35px;
+    color:  #0009a1;
+    margin-left:30px;
+    font-family: "ALK Tall Mtavruli", sans-serif;
+    }
+}
+
+.hr {
+    border: none;
+    height: 1px;
+    background-color: rgb(205 205 205);
+    margin-top: 70px;
+    margin-bottom: 150px;}
